@@ -13,7 +13,7 @@ docker stop 4bdb590703e4
 ```
 
 IP can be obtained by docker-machine ls
-Use your web browser with http://<IP>:8888 or http://<IP>:8888  
+Use your web browser with http://IP:8888 or http://IP:8888  
 Check if your container is running  
 More on Docker Machine @ https://docs.docker.com/v1.8/installation/mac/  
 Docker Cheat Sheet https://github.com/wsargent/docker-cheat-sheet  
