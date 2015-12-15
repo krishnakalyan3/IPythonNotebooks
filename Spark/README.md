@@ -10,7 +10,9 @@ docker ps
 docker-machine ls
 docker-machine stop default
 ```
-Use your web browser with http://127.0.0.1:8888 or http://localhost:8888  
+
+IP can be obtained by ```docker-machine ls```
+Use your web browser with http://IP:8888 or http://IP:8888  
 Check if your container is running  
 More on Docker Machine @ https://docs.docker.com/v1.8/installation/mac/  
 Docker Cheat Sheet https://github.com/wsargent/docker-cheat-sheet  
