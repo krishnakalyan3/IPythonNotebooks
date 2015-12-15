@@ -8,8 +8,7 @@ Install Docker Machine for Mac
 docker run -d -t -p 8888:8888 prabeeshk/pyspark-notebook 
 docker ps
 docker-machine ls
-docker exec -it <Container Name to SSH> bash
-docker stop 4bdb590703e4
+docker-machine stop default
 ```
 Use your web browser with http://127.0.0.1:8888 or http://localhost:8888  
 Check if your container is running  
